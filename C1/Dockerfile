@@ -21,6 +21,8 @@ RUN apt-get install -y \
     zlib1g-dev \
     libssl-dev \
     --fix-missing
+    
+    
 
 # Descargar el código fuente de openssh-client (opcional y no es necesario para el funcionamiento de SSH)
 RUN apt-get source openssh-client
